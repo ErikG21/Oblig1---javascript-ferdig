@@ -7,7 +7,7 @@ let utMeldingNummer = "";
 //array for billetter
 let billetter = [];
 
-//funksjon for input validering
+//funksjon for input valideringg
 function inputValidering (){
 
     document.getElementById("fornavnValideringsmelding").innerHTML = "";
