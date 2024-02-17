@@ -92,6 +92,8 @@ function opprettBillett() {
     for (let i = 0; i < inputBokser.length; i++) {
         inputBokser[i].value = '';
     }
+    //select-en min for film blir resatt til default value/ første value, altså "velg Film"
+    document.getElementById("velgFilm").value = '';
 }
 
 //funksjon kjopBillettKnap er koblet til kjopBillett knap i HTML
